@@ -1,0 +1,51 @@
+:root {
+    --bg-premium: #FDFBF7; /* Crisp, off-white premium base */
+    --navy: #1C2340;      /* Authoritative */
+    --plum: #50223C;      /* Sophisticated accent */
+}
+
+body {
+    background-color: var(--bg-premium);
+    color: var(--navy);
+    font-family: Arial, sans-serif;
+    line-height: 1.8;
+    max-width: 800px; /* Centered, premium reading width */
+    margin: 4rem auto;
+    padding: 0 2rem;
+}
+
+header {
+    border-bottom: 2px solid var(--navy);
+    padding-bottom: 2rem;
+    margin-bottom: 3rem;
+}
+
+h1 {
+    font-family: Georgia, serif;
+    font-size: 2.5rem;
+    letter-spacing: -1px;
+    margin: 0;
+}
+
+h2 {
+    font-family: Georgia, serif;
+    font-size: 1.8rem;
+    color: var(--plum);
+    margin-top: 3rem;
+}
+
+nav a {
+    margin-right: 2rem;
+    color: var(--navy);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+/* Premium Divider Line */
+.divider {
+    height: 1px;
+    background-color: var(--plum);
+    margin: 2rem 0;
+}
